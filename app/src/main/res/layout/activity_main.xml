@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@color/pinkish"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:text="@string/score"
+        android:layout_marginBottom="10dp"
+        android:padding="10sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/computer_choice"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="3dp"/>
+    <ImageView
+        android:id="@+id/enemy_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="150dp"
+        android:maxWidth="200dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"/>
+
+    <ImageView
+        android:id="@+id/player_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="150dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/paper"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_rock"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5sp"
+            android:text="@string/btn_rock"
+            android:background="@drawable/btn_style_rock"
+            />
+
+        <Button
+            android:id="@+id/btn_paper"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5sp"
+            android:text="@string/btn_paper"
+            android:background="@drawable/btn_style_paper"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_scissors"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_marginRight="5sp"
+            android:text="@string/btn_scissors"
+            android:background="@drawable/btn_style_scissors"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/high_scores"
+        android:layout_marginTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/btn_style_scissors"
+        />
+
+</LinearLayout>

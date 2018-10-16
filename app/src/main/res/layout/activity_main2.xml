@@ -42,6 +42,7 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:textColor="@color/white"
+        android:onClick="toHighScore"
         />
 
 </LinearLayout>

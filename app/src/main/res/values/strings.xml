@@ -10,4 +10,13 @@
     <string name="high_scores">High scores</string>
     <string name="play">Play</string>
     <string name="enter_name">Please enter your name</string>
+    <string name="save_to_storage">Do you want to save the current top score to your phone External storage?</string>
+    <string name="Save_to_DCIM">Yes, save to External storage</string>
+    <string name="back_to_game">No. I want to play more</string>
+    <string name="file">Enter the name for your file</string>
+    <string name="show">Show</string>
+    <string name="hintForScore">Write the name of the file and then click on the button SHOW to see your saved score</string>
+    <string name="how_it_looks">This is how current top score looks and will be saved this way</string>
+    <string name="this_is_DCIM">This list below is your DCIM folder. Your file will be saved in this folder.</string>
+    <string name="Save_to_DCIM_here">Save to external storage</string>
 </resources>

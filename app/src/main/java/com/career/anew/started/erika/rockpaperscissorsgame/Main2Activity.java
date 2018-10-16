@@ -16,4 +16,9 @@ public class Main2Activity extends AppCompatActivity {
         Intent nextPage = new Intent(this, PlayerName.class);
         startActivity(nextPage);
     }
+
+    public void toHighScore(View view) {
+        Intent nextPage = new Intent(this, HighestScore.class);
+        startActivity(nextPage);
+    }
 }
